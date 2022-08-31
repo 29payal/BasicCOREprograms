@@ -5,7 +5,7 @@
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome to BASIC CORE PROGRAMS!");
-            Console.WriteLine("Choose option\n  1. Flip coin\t  2. Leap year\t 3. Poweroftwo\t  4. Swap two Number\t  5. EverorOdd\t 6.VowelorConsonant\t 7. Largest almost three number\t 8.Quotient and Remainder\t 9. Harmonic Number");
+            Console.WriteLine("Choose option\n  1. Flip coin\t  2. Leap year\t 3. Poweroftwo\t  4. Swap two Number\t  5. EverorOdd\t 6.VowelorConsonant\t 7. Largest almost three number\t 8.Quotient and Remainder\t 9. Harmonic Number\t 10. Prime Factor");
             int option = Convert.ToInt32(Console.ReadLine());  
             switch (option)
             {
@@ -35,6 +35,9 @@
                     break;
                 case 9:
                     HarmonicNo.HarmonicNum();
+                    break;
+                case 10:
+                    Factors.PrimeFactor();
                     break;
                 default:        
                     Console.WriteLine("Wrong Choice ");
